@@ -1,0 +1,61 @@
+<scene formatVersion="1.0.1" export_time="1399396520.931491" exported_by="Thi" previous_export_time="1399367894.324649" >
+  <nodes >
+    <node name="Armature" >
+      <position z="0.318616" x="0.264887" y="2.322502" />
+      <rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="Cylinder" >
+        <position z="-0.273154" x="0.009709" y="0.014634" />
+        <rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+        <scale z="1.000000" x="1.000000" y="4.261721" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity damping_rot="0.10000000149011612" physics_type="STATIC" meshFile="Cylinder.001.mesh" anisotropic_friction="False" velocity_max="0.0" friction_z="1.0" mass_radius="1.0" friction_x="1.0" velocity_min="0.0" name="Cylinder.001" lock_rot_z="False" lock_rot_y="False" lock_rot_x="False" ghost="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" friction_y="1.0" damping_trans="0.03999999910593033" actor="False" inertia_tensor="0.4000000059604645" mass="1.0" />
+      </node>
+    </node>
+    <node name="Lamp" >
+      <position z="-1.005454" x="4.709500" y="6.580293" />
+      <rotation qw="0.570947" qz="-0.272171" qx="0.169076" qy="0.755880" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light name="Lamp" shadow="true" powerScale="1.0" type="point" >
+        <position z="-1.005454" x="4.709500" y="6.580293" />
+        <lightAttenuation quadratic="0.0" linear="0.03333335240683057" constant="1.0" range="5000" />
+        <colourDiffuse g="1.0" r="1.0" b="1.0" />
+        <colourSpecular g="1.0" r="1.0" b="1.0" />
+        <colourShadow g="1.0" r="1.0" b="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position z="6.507640" x="8.114387" y="6.020096" />
+      <rotation qw="0.781600" qz="-0.212922" qx="0.481707" qy="0.334251" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera fov="0.5033799435163735" name="Camera" projectionType="perspective" >
+        <clipping far="100.0" farPlaneDist="100.0" near="0.10000000149011612" nearPlaneDist="0.10000000149011612" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="G:\csc165\models\new_ava\Material1.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourDiffuse g="0.05087608844041824" r="0.05087608844041824" b="0.05087608844041824" />
+    <colourAmbient g="0.0" r="0.0" b="0.0" />
+    <colourBackground g="0.05087608844041824" r="0.05087608844041824" b="0.05087608844041824" />
+  </environment>
+</scene>

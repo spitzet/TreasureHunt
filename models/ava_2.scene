@@ -1,0 +1,77 @@
+<scene export_time="1400465851.917911" formatVersion="1.0.1" previous_export_time="1400465569.697884" exported_by="Thi" >
+  <nodes >
+    <node name="Armature" >
+      <position x="2.636470" y="0.469176" z="3.238008" />
+      <rotation qw="0.695416" qx="0.007738" qy="0.718517" qz="0.008349" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="Cube" >
+        <position x="-0.000794" y="0.022812" z="-0.001652" />
+        <rotation qw="1.000000" qx="0.000000" qy="-0.000000" qz="-0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity mass="1.0" name="Cube" meshFile="Cube.mesh" actor="False" velocity_min="0.0" mass_radius="1.0" lock_rot_y="False" damping_trans="0.02539999969303608" lock_rot_z="False" inertia_tensor="0.4000000059604645" lock_trans_z="False" lock_trans_x="False" lock_trans_y="False" damping_rot="0.1589999943971634" velocity_max="0.0" anisotropic_friction="False" lock_rot_x="False" ghost="False" friction_x="1.0" friction_y="1.0" friction_z="1.0" physics_type="STATIC" />
+      </node>
+    </node>
+    <node name="Sun" >
+      <position x="-0.672461" y="-1.654226" z="6.556276" />
+      <rotation qw="0.695416" qx="0.007738" qy="0.718517" qz="0.008349" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light name="Sun" powerScale="1.0" type="directional" >
+        <position x="-0.672461" y="-1.654226" z="6.556276" />
+        <lightAttenuation linear="0.04" constant="1.0" quadratic="0.0" range="5000" />
+        <direction x="-0.023" y="-1.0" z="-0.001" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Lamp" >
+      <position x="2.579762" y="-17.061272" z="-1.957139" />
+      <rotation qw="0.145103" qx="0.079875" qy="-0.939405" qz="0.300140" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light name="Lamp" powerScale="1.0" type="point" shadow="true" >
+        <position x="2.579762" y="-17.061272" z="-1.957139" />
+        <lightAttenuation linear="0.03333335240683057" constant="1.0" quadratic="0.0" range="5000" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+        <colourShadow g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position x="7.706423" y="5.437480" z="-1.774791" />
+      <rotation qw="0.301422" qx="0.185256" qy="0.799706" qz="-0.485072" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera name="Camera" fov="0.5033799435163735" projectionType="perspective" >
+        <clipping far="100.0" nearPlaneDist="0.10000000149011612" farPlaneDist="100.0" near="0.10000000149011612" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="F:\Classes\CSC 165\milestone3\csc165\models\Material.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourAmbient g="0.0" b="0.0" r="0.0" />
+    <colourBackground g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+    <colourDiffuse g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>
